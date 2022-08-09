@@ -53,20 +53,20 @@ def display_value(continuous_var):
     results=pd.DataFrame(grouped_mean)
     # Create a grouped bar chart
     mydata1 = go.Bar(
-        x=results.loc['cherbourg'].index,
-        y=results.loc['cherbourg'][continuous_var],
+        x=results.loc['Cherbourg'].index,
+        y=results.loc['Cherbourg'][continuous_var],
         name='Cherbourg',
         marker=dict(color=color1)
     )
     mydata2 = go.Bar(
-        x=results.loc['queenstown'].index,
-        y=results.loc['queenstown'][continuous_var],
+        x=results.loc['Queenstown'].index,
+        y=results.loc['Queenstown'][continuous_var],
         name='Queenstown',
         marker=dict(color=color2)
     )
     mydata3 = go.Bar(
-        x=results.loc['southampton'].index,
-        y=results.loc['southampton'][continuous_var],
+        x=results.loc['Southampton'].index,
+        y=results.loc['Southampton'][continuous_var],
         name='Southampton',
         marker=dict(color=color3)
     )
