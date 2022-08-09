@@ -10,9 +10,9 @@ import plotly.graph_objs as go
 
 ###### Define your variables #####
 tabtitle = 'Titanic!'
-color1='#92A5E8'
-color2='#8E44AD'
-color3='#FFC300'
+color1='#50C878'
+color2='#00008B'
+color3='#7A765A'
 sourceurl = 'https://www.kaggle.com/c/titanic'
 githublink = 'https://github.com/manueldelreal/304-titanic-dropdown'
 
